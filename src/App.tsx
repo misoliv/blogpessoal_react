@@ -8,6 +8,10 @@ import Navbar from "./assets/components/navbar/Navbar"
 import DeletarTema from "./assets/components/tema/deletartema/DeletarTema"
 import FormTema from "./assets/components/tema/formtema/FormTema"
 import ListaTemas from "./assets/components/tema/listatemas/ListaTemas"
+import ListaPostagens from "./assets/components/postagem/listapostagens/ListaPostagens"
+import FormPostagem from "./assets/components/postagem/formpostagem/FormPostagem"
+import DeletarPostagem from "./assets/components/postagem/deletarpostagem/DeletarPostagem"
+
 
 
 function App() {
@@ -25,6 +29,10 @@ function App() {
 							<Route path="/cadastrartema" element={<FormTema />} />
 							<Route path="/editartema/:id" element={<FormTema />} />
 							<Route path="/deletartema/:id" element={<DeletarTema />} />
+							<Route path="/postagens" element={<ListaPostagens />} />
+							<Route path="/cadastrarpostagem" element={<FormPostagem />} />
+							<Route path="/editarpostagem/:id" element={<FormPostagem />} />
+							<Route path="/deletarpostagem/:id" element={<DeletarPostagem />} />
 						</Routes>
 					</div>
 					<Footer />

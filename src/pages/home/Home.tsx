@@ -1,12 +1,15 @@
+import ListaPostagens from "../../assets/components/postagem/listapostagens/ListaPostagens"
+import ModalPostagem from "../../assets/components/postagem/modalpostagem/ModalPostagem"
+
 function Home() {
   return (
-    // Container
+    <>
     <div
-        className="bg-indigo-900 flex justify-center"
+        className="bg-indigo-950 flex justify-center"
     >      
     {/* Grid que divide a tela em duas colunas  */}
         <div
-            className="container grid grid-cols-2 text-white"
+            className="container grid grid-cols-2 text-amber-500"
           >
            {/* Coluna esquerda */}
             <div
@@ -20,20 +23,17 @@ function Home() {
                 > Expresse aqui seus pensamentos e opiniões</p>
                 {/* Link/ botão */}
                 <div
-                    className="flex justify-around gap-4"
-                >
-                    <div
-                        className="rounded text-white border-white border-solid border-2 py-2 px-4"
-                    >Nova Postagem </div>
+                    className="flex justify-around gap-4">
+                         <ModalPostagem />
                 </div>
             </div>
  
-            {/* Coluna direira */}
+            {/* Coluna direita */}
             <div
                 className="flex justify-center"
             >
                 <img
-                    src="https://i.imgur.com/fyfri1v.png"
+                    src="https://ik.imagekit.io/milenasoliv10/imagem1.jpg"
                     alt="Imagem da Página Home"
                     className="w-2/3"
  
@@ -41,6 +41,8 @@ function Home() {
             </div> 
         </div>
     </div>
+        <ListaPostagens />
+    </>
   )
 }
  
