@@ -18,7 +18,7 @@ function Navbar() {
 		<>
 			<div
 				className="w-full flex justify-center py-4
-            			   bg-indigo-800 text-amber-400"
+            			   bg-indigo-950 text-amber-400"
 			>
 				<div className="container flex justify-between text-lg mx-8">
 					<Link to="/home" className="text-2xl font-bold">

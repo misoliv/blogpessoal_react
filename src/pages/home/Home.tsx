@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
     <div
-        className="bg-indigo-950 flex justify-center"
+        className="bg-indigo-900 flex justify-center"
     >      
     {/* Grid que divide a tela em duas colunas  */}
         <div
