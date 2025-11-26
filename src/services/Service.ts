@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Instância do Axios
 const api = axios.create({
-    baseURL: 'https://blogpessoal-spring-1-zobg.onrender.com'
+    baseURL: import.meta.env.VITE_API_URL
     //baseURL: 'https://blogpessoal-security.onrender.com'
 })
 
