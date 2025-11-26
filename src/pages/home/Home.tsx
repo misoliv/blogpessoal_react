@@ -9,7 +9,7 @@ function Home() {
     >      
     {/* Grid que divide a tela em duas colunas  */}
         <div
-            className="container grid grid-cols-2 text-amber-500"
+            className="container grid grid-cols-2 text-amber-400"
           >
            {/* Coluna esquerda */}
             <div
