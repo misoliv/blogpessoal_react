@@ -193,7 +193,7 @@ function FormPostagem() {
                 </div>
                 <button 
                     type='submit' 
-                    className='rounded disabled:bg-slate-200 bg-indigo-950 hover:bg-indigo-800
+                    className='rounded bg-indigo-950 hover:bg-indigo-800
                                text-amber-400 font-bold w-1/2 mx-auto py-2 flex justify-center'
                                disabled={carregandoTema}
                 >
